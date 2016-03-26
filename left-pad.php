@@ -1,3 +1,4 @@
+<?php
 trait LeftPadTrait {
   public function leftpad ($str, $len, $ch)
   {
@@ -12,3 +13,4 @@ trait LeftPadTrait {
     return $str;
   }
 }
+?>
