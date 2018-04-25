@@ -1,6 +1,7 @@
 <?php
 
-class StingPad {
+class StingPad
+{
   public static function left($str, int $len, string $ch = ' ') : string
   {
        $str = (string)$str;
@@ -9,7 +10,7 @@ class StingPad {
        for ($i = 0; $len > $i; $i++)
        {
             $str = $ch . $str;
-        }
-        return $str;
+       }
+       return $str;
   }
 }
