@@ -13,4 +13,16 @@ class StingPad
        }
        return $str;
   }
+  public function rightpad($str, $len, $ch)
+  {
+    $str = (string)$str;
+  
+    if (!$ch) $ch = ' ';
+    $len = $len - strlen($str);
+    for ($i = 0; $len > $i; $i++)
+    {
+      $str .= $ch;
+    }
+    return $str;
+  }
 }
