@@ -13,7 +13,8 @@ class StingPad
        }
        return $str;
   }
-  public function rightpad($str, $len, $ch)
+  
+  public static function right($str, int $len, string $ch = ' ') : string
   {
     $str = (string)$str;
   
