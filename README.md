@@ -3,7 +3,7 @@ Left Pad for php
 
 ## Install
 ```console
-composer require zhukmax/stringpad
+$ composer require zhukmax/stringpad
 ```
 
 ## Usage
