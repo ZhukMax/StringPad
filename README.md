@@ -1,6 +1,11 @@
 # left-pad
 Left Pad for php
 
+## Install
+```console
+composer require zhukmax/stringpad
+```
+
 ## Usage
 
 ```php
