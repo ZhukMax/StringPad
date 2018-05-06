@@ -1,5 +1,5 @@
-# left-pad
-Left Pad for php
+# StringPad
+Left and Right Pad for php
 
 ## Install
 ```console
