@@ -12,20 +12,6 @@ $ composer require zhukmax/stringpad
 <?php
 include "left-pad.php";
 
-class Test {
-	use LeftPadTrait;
-	
-	public function a ()
-	{
-		$c = rand(0, 999);
-		return $this->leftpad($c, 4, 0);
-	}
-	public function b ($c = '')
-	{
-		return $this->leftpad($c, 5);
-	}
-}
-
 $test = new Test;
 $str = $test->leftpad(5, 6, 0);
 
