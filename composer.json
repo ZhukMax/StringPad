@@ -1,1 +1,18 @@
-{}
+{
+  "name": "zhukmax/stringpad",
+  "description": "Lib for add symbols to start or end of string like spaces, dots or any another.",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Zhuk Max",
+      "email": "zhukmax@ya.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {},
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
