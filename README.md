@@ -1,5 +1,5 @@
 # StringPad
-Left and Right Pad for php
+Lib for add symbols to start or end of string like spaces, dots or any another.
 
 ## Install
 ```console
