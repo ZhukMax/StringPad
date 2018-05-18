@@ -18,7 +18,6 @@ class StingPad
   {
     $str = (string)$str;
   
-    if (!$ch) $ch = ' ';
     $len = $len - strlen($str);
     for ($i = 0; $len > $i; $i++)
     {
