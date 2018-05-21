@@ -11,4 +11,5 @@ $ composer require zhukmax/stringpad
 ```php
 <?php
 echo \ZhukMax\StringPad::leftpad(5, 6, 0); // => 000005
+echo \ZhukMax\StringPad::leftpad('b', 3, 'a'); // => aab
 ```
