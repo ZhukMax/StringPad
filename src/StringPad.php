@@ -1,6 +1,7 @@
 <?php
+namespace Zhukmax;
 
-class StingPad
+class StringPad
 {
   public static function left($str, int $len, string $ch = ' ') : string
   {
