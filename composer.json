@@ -14,7 +14,7 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "Zhukmax\\StringPad\\": "src/"
+      "Zhukmax\\": "src/"
     }
   }
 }
