@@ -10,6 +10,6 @@ $ composer require zhukmax/stringpad
 
 ```php
 <?php
-echo \ZhukMax\StringPad::left(5, 6, 0); // => 000005
-echo \ZhukMax\StringPad::right('b', 5, 'a'); // => baaaa
+echo \Zhukmax\StringPad::left(5, 6, 0); // => 000005
+echo \Zhukmax\StringPad::right('b', 5, 'a'); // => baaaa
 ```
