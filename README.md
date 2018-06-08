@@ -13,8 +13,12 @@ composer require zhukmax/stringpad
 
 ```php
 <?php
-echo \Zhukmax\StringPad::left(5, 6, 0); // => 000005
-echo \Zhukmax\StringPad::right('b', 5, 'a'); // => baaaa
+
+require_once 'vendor/autoload.php';
+use Zhukmax\StringPad;
+
+echo StringPad::left(5, 6, 0); // => 000005
+echo StringPad::right('b', 5, 'a'); // => baaaa
 ```
 
 [ico-license]: https://img.shields.io/badge/license-Apache%202-brightgreen.svg
