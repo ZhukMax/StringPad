@@ -23,4 +23,4 @@ echo StringPad::right('b', 5, 'a'); // => baaaa
 
 [ico-license]: https://img.shields.io/badge/license-Apache%202-brightgreen.svg
 [ico-downloads]: https://img.shields.io/packagist/dt/zhukmax/stringpad.svg
-[link-downloads]: https://packagist.org/packages/zhukmax/smsc
+[link-downloads]: https://packagist.org/packages/zhukmax/stringpad
