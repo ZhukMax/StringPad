@@ -3,6 +3,12 @@ namespace Zhukmax;
 
 class StringPad
 {
+    /**
+     * @param $str
+     * @param int $len
+     * @param string $ch
+     * @return string
+     */
     public static function left($str, int $len, string $ch = '0') : string
     {
          $str = (string)$str;
@@ -14,7 +20,13 @@ class StringPad
 
          return $str;
     }
-  
+
+    /**
+     * @param $str
+     * @param int $len
+     * @param string $ch
+     * @return string
+     */
     public static function right($str, int $len, string $ch = '0') : string
     {
         $str = (string)$str;
