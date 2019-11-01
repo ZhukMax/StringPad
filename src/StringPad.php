@@ -4,12 +4,12 @@ namespace Zhukmax;
 class StringPad
 {
     /**
-     * @param $str
+     * @param string $str
      * @param int $len
      * @param string $ch
      * @return string
      */
-    public static function left($str, int $len, string $ch = '0') : string
+    public static function left($str, $len, $ch = '0')
     {
          $str = (string)$str;
   
@@ -22,12 +22,12 @@ class StringPad
     }
 
     /**
-     * @param $str
+     * @param string $str
      * @param int $len
      * @param string $ch
      * @return string
      */
-    public static function right($str, int $len, string $ch = '0') : string
+    public static function right($str, $len, $ch = '0')
     {
         $str = (string)$str;
   
